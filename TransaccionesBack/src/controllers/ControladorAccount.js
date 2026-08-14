@@ -74,6 +74,7 @@ export const crearAccount = catchAsync(async (req, res, next) => {
         estado: 'activo'
     });
 
+
     res.status(201).json({
         status: 'success',
         message: 'Cuenta creada correctamente',

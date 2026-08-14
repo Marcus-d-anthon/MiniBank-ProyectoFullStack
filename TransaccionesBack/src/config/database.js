@@ -9,6 +9,7 @@ export const conectarBD = async () => {
     }
 }
 
+
 mongoose.connection.once('open', () => {
   console.log('📦 Base de datos conectada:', mongoose.connection.name);
 });
